@@ -48,7 +48,8 @@ const styles = StyleSheet.create({
   mainHeading: {
     fontSize: 30,
     fontWeight: "bold",
-    textAlign: "center"
+    textAlign: "center",
+    color: "#ff0000"
   },
   container: {
     padding: 20,
