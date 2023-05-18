@@ -3,6 +3,9 @@ import { Platform, Alert } from "react-native";
 import { useState, useEffect } from "react";
 import { ONE_SIGNAL_APP_ID } from "@env";
 
+const CUSTOM = "Custom edit here. Do not override me please";
+console.log(CUSTOM);
+
 const useOneSignal = () => {
   const [isSubscribed, setIsSubscribed] = useState(false);
   useEffect(() => {
